@@ -185,10 +185,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     Text('1st Year',
                       style: TextStyle(fontSize: 45,fontFamily: MyApp.font,color: Colors.white),
                     ),
-                    Row(
-
-                    )
-
+                    SizedBox(
+                      height: 400,
+                    ),
+                    Text('2nd Year',
+                      style: TextStyle(fontSize: 45,fontFamily: MyApp.font,color: Colors.white),
+                    ),
                   ],
                 ),
               )
